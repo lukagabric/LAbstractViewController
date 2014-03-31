@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>BA785C8C-EA3F-4DA2-860B-510630796B08</string>
+	<key>IDESourceControlProjectName</key>
+	<string>LAbstractViewController</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>000FADAF-10F4-45E5-AFDA-BC5B0B5C7AB1</key>
+		<string>https://github.com/lukagabric/LAbstractViewController.git</string>
+		<key>1BECF756-A41D-4FEC-9F00-AC816114BDA5</key>
+		<string>https://github.com/lukagabric/LReachabilityController.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>LAbstractViewController.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>000FADAF-10F4-45E5-AFDA-BC5B0B5C7AB1</key>
+		<string>../..</string>
+		<key>1BECF756-A41D-4FEC-9F00-AC816114BDA5</key>
+		<string>../../LAbstractViewController/External</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/lukagabric/LAbstractViewController.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>000FADAF-10F4-45E5-AFDA-BC5B0B5C7AB1</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>1BECF756-A41D-4FEC-9F00-AC816114BDA5</string>
+			<key>IDESourceControlWCCName</key>
+			<string>External</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>000FADAF-10F4-45E5-AFDA-BC5B0B5C7AB1</string>
+			<key>IDESourceControlWCCName</key>
+			<string>LAbstractViewController</string>
+		</dict>
+	</array>
+</dict>
+</plist>

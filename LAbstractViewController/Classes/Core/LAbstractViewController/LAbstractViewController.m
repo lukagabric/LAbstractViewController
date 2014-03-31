@@ -5,6 +5,7 @@
 
 
 #import "LAbstractViewController.h"
+#import "LReachabilityController.h"
 
 
 @implementation LAbstractViewController
@@ -43,6 +44,7 @@
 
 - (void)initialize
 {
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(reachabilityChanged) name:kReachabilityControllerStatusChanged object:nil];
 	[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(appWillEnterForeground) name:UIApplicationWillEnterForegroundNotification object:nil];
 	[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(appDidEnterBackground) name:UIApplicationDidEnterBackgroundNotification object:nil];
 	[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(appWillResignActive) name:UIApplicationWillResignActiveNotification object:nil];
@@ -65,7 +67,7 @@
 }
 
 
-#pragma mark - UIApplication notifications
+#pragma mark - Notification center
 
 
 - (void)appWillEnterForeground
@@ -89,6 +91,12 @@
 - (void)appDidBecomeActive
 {
 
+}
+
+
+- (void)reachabilityChanged
+{
+    
 }
 
 

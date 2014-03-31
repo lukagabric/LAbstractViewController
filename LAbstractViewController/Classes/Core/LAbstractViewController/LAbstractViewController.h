@@ -35,6 +35,7 @@
 - (void)appDidEnterBackground;
 - (void)appWillResignActive;
 - (void)appDidBecomeActive;
+- (void)reachabilityChanged;
 
 
 @end
